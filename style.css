@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+}
+
+.wrapper1,
+.wrapper2 {
+    width: 50%;
+    height: 100vh;
+}
+
+.wrapper1,
+.wrapper2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header {
+    position: absolute;
+    top: 2%;
+    left: 45%;
+    text-align: center;
+}
+
+.roll {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+}
+
+.hold {
+    position: absolute;
+    top: 70%;
+    left: 46%;
+}
+.dice {
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
