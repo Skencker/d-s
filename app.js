@@ -82,7 +82,7 @@ function display() {
 }
 //fonction pour tourner le dé
 function rollDiceFonction(number) {
-    imageDice.src="/images/" + number + ".png";
+    imageDice.src="./images/" + number + ".png";
 };
 //function ajoute au current
 function addCurrent(number) {
